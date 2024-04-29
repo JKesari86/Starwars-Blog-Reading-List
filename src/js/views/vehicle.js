@@ -27,7 +27,7 @@ export const Vehicles = () => {
                 {store.vehicles.map((vehicle) => {
                     return (
                         <div key={vehicle.uid}>
-                            <div className="card" style={{ width: "18rem", marginRight: "15px" }}>
+                            <div className="card" style={{ width: "18rem", marginRight: "15px", background: "black", color: "white" }}>
                                 <img src="" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">{vehicle.name}</h5>

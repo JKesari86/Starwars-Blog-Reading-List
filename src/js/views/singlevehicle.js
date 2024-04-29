@@ -21,7 +21,7 @@ export const SingleVehicle = () => {
         <div className="container">
             <div>
                 {vehicle ? (
-                    <div className="row d-flex" key={vehicle.uid}>
+                    <div className="row d-flex bg-black text-light" key={vehicle.uid}>
                         <div className="col-sm-12 col-md-6">
                         <img src="" className="card-img-top" alt="..." />
                         </div>
@@ -35,15 +35,15 @@ export const SingleVehicle = () => {
                             </p>
                             <hr className="text-danger" />
                             <div className="row d-flex">
-                                <div className="col-4 text-danger">
+                                <div className="col-4 text-light">
                                     <p>Name</p>
                                     <p>{vehicle.name}</p>
                                 </div>
-                                <div className="col-4 text-danger">
+                                <div className="col-4 text-light">
                                     <p>Model</p>
                                     <p>{vehicle.model}</p>
                                 </div>
-                                <div className="col-4 text-danger">
+                                <div className="col-4 text-light">
                                     <p>Manufacturer</p>
                                     <p>{vehicle.manufacturer}</p>
                                 </div>

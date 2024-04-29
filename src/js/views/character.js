@@ -22,7 +22,7 @@ export const Characters = () => {
                 {store.people.map((person) => {
                     return (
                         <div key={person.uid}>
-                            <div className="card" style={{ width: "18rem", marginRight: "15px" }}>
+                            <div className="card" style={{ width: "18rem", marginRight: "15px", background: "black", color: "white"}}>
                                 <img src="" className="card-img-top" alt="..." />   
                                 <div className="card-body">
                                     <h5 className="card-title">{person.name}</h5>

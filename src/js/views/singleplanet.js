@@ -21,7 +21,7 @@ export const SinglePlanet = () => {
         <div className="container">
             <div>
                 {planet ? (
-                    <div className="row d-flex" key={planet.uid}>
+                    <div className="row d-flex bg-black text-light" key={planet.uid}>
                         <div className="col-sm-12 col-md-6">
                         <img src="" className="card-img-top" alt="..." />
                         </div>
@@ -35,15 +35,15 @@ export const SinglePlanet = () => {
                             </p>
                             <hr className="text-danger" />
                             <div className="row d-flex">
-                                <div className="col-4 text-danger">
+                                <div className="col-4 text-light">
                                     <p>Name</p>
                                     <p>{planet.name}</p>
                                 </div>
-                                <div className="col-4 text-danger">
+                                <div className="col-4 text-light">
                                     <p>Climate</p>
                                     <p>{planet.climate}</p>
                                 </div>
-                                <div className="col-4 text-danger">
+                                <div className="col-4 text-light">
                                     <p>Population</p>
                                     <p>{planet.population}</p>
                                 </div>
